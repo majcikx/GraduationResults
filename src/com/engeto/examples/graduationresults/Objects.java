@@ -1,13 +1,13 @@
 package com.engeto.examples.graduationresults;
 
 public class Objects {
-    String objectsName;
-    int score;
+    private String objectsName;
+    private byte score;
 
 
     public Objects(String objectsName) {
         this.objectsName = objectsName;
-        score = 0;
+
     }
 
     public String getObjectsName() {
@@ -22,7 +22,7 @@ public class Objects {
         return score;
     }
 
-    public void setScore(int score) {
+    public void setScore(byte score) {
         this.score = score;
     }
 }
